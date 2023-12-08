@@ -16,7 +16,7 @@ wp-config.php
 .htaccess
 license.txt
 readme.html
-
+*.zip
 # Ignore development files and directories
 node_modules/
 gulpfile.js
