@@ -1,4 +1,5 @@
-<footer class="flex flex-col justify-around py-16 text-white lg:flex-row m-ext bg-green-dark">
+<footer class="bg-rqPurple text-rqWhite-Silver flex flex-col px-2 items-center">
+    <p>Our mission is to help youth feel better in themselves, grow as conscious leaders and enjoy the process while doing it</p>
     <ul>
 
     </ul>
@@ -9,8 +10,8 @@
     </ul>
     <ul class="mt-12 lg:mt-0">
     </ul>
+    <div class=""><span class="mx-auto">copyright 2024</span></div>
 </footer>
-<div class="flex flex-row my-2 text-gray-500 bg-white m-ext "><span class="mx-auto">copyright 2024</span></div>
 <?php wp_footer() ?>
 </body>
 
