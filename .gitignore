@@ -1,0 +1,25 @@
+# Ignore WordPress core files
+wp-admin/
+wp-includes/
+
+# Ignore WordPress default themes
+wp-content/themes/twenty*/
+
+# Ignore WordPress plugin files
+#wp-content/plugins/
+
+# Ignore upload directory
+wp-content/uploads/
+
+# Ignore miscellaneous files
+wp-config.php
+.htaccess
+license.txt
+readme.html
+*.zip
+*.png
+*jpg
+# Ignore development files and directories
+node_modules/
+gulpfile.js
+package.json
