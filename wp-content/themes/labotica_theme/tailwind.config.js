@@ -4,21 +4,33 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        rqPurple: {
-          DEFAULT: "#9C8FAB",
+        lbGreen: {
+          DEFAULT: "#2EB031",
+          Light: "#A1FFA4",
+          Dark: "#207B23",
         },
-        rqGreen: {
-          DEFAULT: "#90ABA8",
-          darker: "#557E79",
+        lbBlue: {
+          DEFAULT: "#2E4986",
+          Dark: "#20425E",
+          Light: "#ABD9FF",
+          Lightest: "#E1F2FF",
+          Alert: "#1D4ED8",
         },
-        rqWhite: {
+        lbWhite: {
           DEFAULT: "#FFFFFF",
-          Silver: "#E8EDED",
+          Silver: "#F5F5F7",
         },
-        rqYEllow: {
-          DEFAULT: "#DFCE7F",
-          darker: "#AF9A3A",
+        lgBlack: {
+          DEFAULT: "#000000",
+          Inpure: "#040301",
         },
+        lbYEllow: {
+          DEFAULT: "#DAA520",
+          Alert: "#FDDA67",
+        },
+        lgRed: {
+          Alert: '#DC2626'
+        }
       },
       fontFamily: {
         rqInter: ["Inter", "sans-serif"],

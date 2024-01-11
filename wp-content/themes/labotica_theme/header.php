@@ -12,7 +12,7 @@
 </head>
 
 <body class="relative">
-    <nav class="bg-rqPurple p-2">
+    <nav class="p-2 bg-lbBlue">
 
     </nav>
     <?php wp_body_open() ?>

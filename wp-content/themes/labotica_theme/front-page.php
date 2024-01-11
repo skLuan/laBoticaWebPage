@@ -1,25 +1,28 @@
 <?php get_header() ?>
 
 
-<section id="">
+<section id="principal_Banner">
   
 </section>
 
-<section id="" class="mt-4">
-  
-    </div>
+<section id="OrganizadorFiltro" class="mt-4">
+</section>
+<section id="LoopProductos">
 
 </section>
-<section id="">
+<section id="Ofertas">
 
 </section>
-<section id="">
+<section id="InformacionGeneral">
 
 </section>
-<section id="">
+<section id="Populares">
 
 </section>
-<section id="">
+<section id="Compra">
+
+</section>
+<section id="FAQS">
 
 </section>
 <?php
