@@ -8,3 +8,12 @@
         @apply font-rqNunito;
     }
 }
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- footer */
+footer .menu-item-has-children {
+    @apply text-xl font-bold uppercase text-lbGreen-Light;
+}
+footer .menu-item-has-children ul.sub-menu {
+    @apply text-base capitalize font-semibold text-lbWhite-Silver;
+}
