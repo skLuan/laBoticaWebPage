@@ -2,7 +2,9 @@
 
 
 <section id="principal_Banner">
-  
+    <figure class="h-[50vh] bg-gray-300">
+        <picture><img src="" alt=""></picture>
+    </figure>
 </section>
 
 <section id="OrganizadorFiltro" class="mt-4">

@@ -25,7 +25,7 @@ $Nosotros = [
         ],
         [
             'text' => 'Telefono',
-            'url' => 'https://wa.me/'
+            'url' => WHATSME_URL
         ],
         [
             'text' => 'Correo',
