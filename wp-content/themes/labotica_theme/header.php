@@ -19,7 +19,7 @@
 </head>
 
 <body class="relative">
-    <div class="sticky <?= is_admin_bar_showing()? 'top-6' : 'top-0' ?>">
+    <div class="sticky z-10 shadow <?= is_admin_bar_showing() ? 'top-6' : 'top-0' ?>">
         <nav class="p-2 text-center bg-lbBlue text-lbWhite-Silver">
             <h4 class="">Envios gratis con compras desde <b>$000.0000</b></h4>
         </nav>
@@ -30,4 +30,8 @@
             <?= get_template_part(COMPONENT_PARTS . 'button', 'whatsapp', $argsBtnWhatsapp) ?>
         </nav>
     </div>
+
+    <?= get_template_part(COMPONENT_PARTS . 'navigation', 'tabbar') ?>
+    <?= get_template_part(COMPONENT_PARTS . 'navigation', 'sidebar') ?>
+
     <?php wp_body_open() ?>

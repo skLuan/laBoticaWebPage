@@ -17,3 +17,19 @@ footer .menu-item-has-children {
 footer .menu-item-has-children ul.sub-menu {
     @apply text-base capitalize font-semibold text-lbWhite-Silver;
 }
+
+#sidebar_container ul#menu-sidebar li {
+    @apply pt-1;
+}
+ 
+#sidebar_container ul#menu-sidebar li.menu-item-has-children > a{
+    @apply font-bold;
+}
+#sidebar_container ul#menu-sidebar li.menu-item-has-children {
+  @apply pb-2;
+}
+#sidebar_container ul#menu-sidebar li.menu-item-has-children ul {
+  @apply ml-2;
+}
+
+

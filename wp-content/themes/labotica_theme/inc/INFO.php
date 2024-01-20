@@ -1,6 +1,8 @@
 <?php
 define('MOCKUP_IMAGE', get_stylesheet_directory_uri().'/assets/imgs/image_mockup.png');
 define('COMPONENT_PARTS','/components/');
+define('TEMPLATE_URI', get_stylesheet_directory_uri());
+
 
 // ----------- Info general
 define('EMAIL', 'labotica@gmail.com');
