@@ -17,6 +17,7 @@ btnSidebar.addEventListener('click', (e)=> {
         translateX: [initX, 0],
         easing: easingVariable    
         });
+        btnSidebar.classList.add('!opacity-100');
     }
     else {
         anime({
@@ -24,6 +25,8 @@ btnSidebar.addEventListener('click', (e)=> {
         translateX: initX,
         easing: 'cubicBezier(0.16, 1, 0.1, 1)'  
         });
+        btnSidebar.classList.remove('!opacity-100');
+
     }
 })
 });

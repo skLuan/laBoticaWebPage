@@ -33,5 +33,6 @@
 
     <?= get_template_part(COMPONENT_PARTS . 'navigation', 'tabbar') ?>
     <?= get_template_part(COMPONENT_PARTS . 'navigation', 'sidebar') ?>
+    <?= get_template_part(COMPONENT_PARTS . 'navigation', 'search-mobile') ?>
 
     <?php wp_body_open() ?>
